@@ -1,4 +1,4 @@
-package edu.rosehulman.decramrj.bracketologyapp;
+package edu.rosehulman.decramrj.bracketologyapp.BracketInfo;
 
 /**
  * Created by decramrj on 5/20/2017.
@@ -15,5 +15,21 @@ public class Bracket {
         east = new Region();
         south = new Region();
         west = new Region();
+    }
+
+    public Region getMidwest() {
+        return midwest;
+    }
+
+    public Region getEast() {
+        return east;
+    }
+
+    public Region getSouth() {
+        return south;
+    }
+
+    public Region getWest() {
+        return west;
     }
 }
