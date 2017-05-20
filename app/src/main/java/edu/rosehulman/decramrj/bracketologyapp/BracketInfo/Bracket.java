@@ -11,10 +11,10 @@ public class Bracket {
     private Region west;
 
     public Bracket() {
-        midwest = new Region();
-        east = new Region();
-        south = new Region();
-        west = new Region();
+        midwest = new Region("Midwest");
+        east = new Region("East");
+        south = new Region("South");
+        west = new Region("West");
     }
 
     public Region getMidwest() {

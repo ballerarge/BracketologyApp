@@ -10,9 +10,26 @@ import java.util.TreeSet;
 public class Region {
     private HashMap<Integer, Seed> teamsInRegion;
     private String location;
+    private SeedFactory seedFactory;
 
-    public Region(HashMap<Integer, Seed> teamsInRegion, String location) {
-        this.teamsInRegion = teamsInRegion;
+    public Region(String location) {
+        this.teamsInRegion = new HashMap<>();
         this.location = location;
+        seedFactory = new SeedFactory();
+        initializeRegion();
     }
+
+    private void initializeRegion() {
+        seedFactory.initializeSeeds(teamsInRegion);
+    }
+
+    public HashMap<Integer, Seed> getTeamsInRegion() {
+        return teamsInRegion;
+    }
+
+    public String getLocation() {
+        return location;
+    }
+
+
 }
