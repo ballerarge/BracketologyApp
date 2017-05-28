@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include android:id="@+id/One_Sixteen_Game"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/game_panel"/>
+    <include android:id="@+id/Eight_Nine_Game"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/game_panel"/>
+    <include android:id="@+id/Five_Twelve_Game"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/game_panel"/>
+    <include android:id="@+id/Four_Thirteen_Game"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/game_panel"/>
+    <include android:id="@+id/Six_Eleven_Game"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/game_panel"/>
+    <include android:id="@+id/Three_Fourteen_Game"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/game_panel"/>
+    <include android:id="@+id/Seven_Ten_Game"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/game_panel"/>
+    <include android:id="@+id/Two_Fifteen_Game"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/game_panel"/>
+
+</RelativeLayout>
